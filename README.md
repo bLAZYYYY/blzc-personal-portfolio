@@ -1,4 +1,5 @@
 # Personal Portfolio
+*Last updated: March 12, 2024*
 
 Welcome to my personal portfolio repository! This project showcases my skills, experience, and projects in a clean and professional manner.
 
