@@ -47,9 +47,18 @@ body {
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+    transform: scale(1.05);
 }
 
 .nav-links {
@@ -66,6 +75,28 @@ body {
 
 .nav-links a:hover {
     color: var(--accent-color);
+}
+
+/* Resume Button */
+.resume-button {
+    background-color: var(--accent-color);
+    color: var(--bg-primary) !important;
+    padding: 0.6rem 1.2rem;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease !important;
+}
+
+.resume-button:hover {
+    background-color: var(--accent-hover);
+    color: var(--bg-primary) !important;
+    transform: translateY(-2px);
+}
+
+.resume-button i {
+    font-size: 0.9rem;
 }
 
 /* Hero Section */
